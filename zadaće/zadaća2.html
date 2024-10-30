@@ -3,9 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fabijan Drazetic</title>
 </head>
 <body>
+    <h1>Raspored sati u tjednu</h1>
+    <table border="1">
+        <tr>
+            <th colspan="5">3. godina Učiteljskog studija</th>
+        
+        </tr>
+        <tr>
+            <td rowspan="6">Predmeti</td>
+
+        </tr>
+        
+        <tr>
+            <th>Ponedjeljak</th>
+            <th>Utorak</th>
+            <th>Srijeda</th>
+            <th>Četvrtak</th>
+            <th>Petak</th>
+        </tr>
+        <tr>
+            <td>Metodika prirode i društva</td>
+            <td>Kineziologija</td>
+            <td>Web programiranje</td>
+            <td>Psihologija obrazovanja</td>
+            <td>Metodika matematike</td>
+        </tr>
+        <tr>
+            <td>Engleski jezik u struci</td>
+            <td>Internet u odgoju i obrazovanju</td>
+            <td>Web programiranje</td>
+            <td>Školska higijena</td>
+            <td>Dramski odgoj</td>
+        </tr>
+        <tr>
+            <td>Metodika hrvatskog jezika</td>
+            <td>Metodika likovne kulture</td>
+            <td>Sviranje II</td>
+            <td>Metodika Matematike</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Hrvatski jezik</td>
+            <td>Web programiranje</td>
+            <td>Kineziologija</td>
+
+            
+        </tr>
+       
+
+
+
+    </table><br>
+
+    <h2>Registracija putem obrasca</h2>
+    <form action="" method="get">
+    <label for="name">Unesi ime:</label>
+    <input type="text" id="name" name="name"> <br>
+    <label for="prezime">Unesi prezime:</label>
+    <input type="text" name="prezime" id="prezime"><br>
+    <label>Unesi lozinku:</label>
+    <input type="password" maxlength="20"><br>
+    <label>Odabir uloge:</label><br>
+    <input type="radio" name="uloga" id="admin" value="admin">
+    <label for="admin">admin</label><br>
+    <input type="radio" name="uloga" id="guest" value="guest">
+    <label for="guest">guest <br>
+    <label>Prihaćaš li uvjete korištenja?</label><br>
+    <input type="checkbox" name="prihvaćam" id="prihvaćam">
+    <label for="prihvaćam">Prihvaćam</label><br>
+    <input type="button" onclick="myFunction()" value="submit">
+    <input type="reset"value="reset">
+</form>
+
+<h3>Audio i video element</h3>
+<video width="320" height="240" controls>
+    <source src="assets/puppy.mp4" type="video/ogg">
+  </video><br>
+  <audio controls>
+    <source src="assets/test-audio.ogg" type="audio/ogg">
+  </audio><br>
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
     
 </body>
 </html>
