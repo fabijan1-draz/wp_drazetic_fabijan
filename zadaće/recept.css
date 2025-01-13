@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: lightpink;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+#recepti {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.recipe {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.recipe img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+#glavna-jela 
+.recipe img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+#predjela
+.recipe img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+h2 {
+    color: #555;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+.grid-item {
+    background: #444;
+    padding: 15px;
+    border-radius: 5px;
+}
+@media (max-width: 480px) {
+    #recepti {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
